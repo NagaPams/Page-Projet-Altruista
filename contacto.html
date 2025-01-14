@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consejos de Ciberseguridad</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,15 +20,17 @@
     </header>
 
     <main>
-        <section id="tips">
-            <h2>Consejos de Seguridad en Internet</h2>
-            <ul>
-                <li>Usa contraseñas fuertes y cámbialas periódicamente.</li>
-                <li>No compartas datos personales en redes sociales.</li>
-                <li>Instala un software antivirus y manténlo actualizado.</li>
-                <li>Evita descargar archivos de fuentes desconocidas.</li>
-                <li>Siempre verifica la URL antes de ingresar tus datos.</li>
-            </ul>
+        <section id="contact">
+            <h2>Contáctanos</h2>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
